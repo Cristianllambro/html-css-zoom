@@ -1,0 +1,65 @@
+:root{
+    --white: #ffffff
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* icon nav */
+
+.nav-bar{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .3rem .2rem;
+}
+
+.view{
+    color: var(--white);
+    background-color: #787a79;
+    padding: .3rem .2rem;
+    margin-right: .4em;
+    border-radius: .3rem;
+
+}
+
+.view .text{
+    font-size: 14px;
+}
+
+.fa-arrows-alt{
+    color: var(--white);
+    transform: rotate(45deg);
+}
+
+.icon{
+    background-color: #787a79;
+    padding: .4rem;
+    border-radius: .3rem;
+}
+
+/* container main and card */
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.card{
+    min-width: 200px;
+    position: relative;
+}
+
+.voice{
+    color: var(--white);
+    background-color: #676d78;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+}
