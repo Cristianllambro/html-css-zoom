@@ -17,6 +17,7 @@
     justify-content: flex-end;
     align-items: center;
     padding: .3rem .2rem;
+    height: 3em;
 }
 
 .view{
@@ -68,7 +69,7 @@ img{
 
 .voice{
     color: var(--white);
-    background-color: #676d78;
+    background-color: rgb(110,124,145, 0.5);
     font-size: 14px;
     padding: .3rem;
     position: absolute;
