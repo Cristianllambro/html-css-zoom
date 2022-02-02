@@ -118,6 +118,12 @@ img{
 
 .foot-list li{
     padding-right: 1.5em;
+    cursor: pointer;
+}
+
+.foot-list li a{
+    text-decoration: none;
+    color: white;
 }
 
 .fa-share-square{
@@ -130,7 +136,11 @@ img{
     background-color: #4a4a4a;
 }
 
+.foot-right .end a{
+    text-decoration: none;
+    color: red;
+}
+
 .end{
     padding: .5rem;
-    color: red;
 }
