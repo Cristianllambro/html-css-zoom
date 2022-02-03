@@ -28,11 +28,6 @@
     border-radius: .3rem;
 }
 
-img{
-    width: 250px;
-    height: 150px;
-    object-fit: cover;
-}
 
 .view .text{
     font-size: 14px;
@@ -67,6 +62,12 @@ img{
     position: relative;
     margin-bottom: .4em;
     margin-right: .3em;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .voice{
