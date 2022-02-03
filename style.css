@@ -52,6 +52,8 @@ img{
 /* container main and card */
 
 .container-main{
+    height: calc(100vh - 8em);
+    overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -81,7 +83,6 @@ img{
 
 .footer-main{
     position: fixed;
-    bottom: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
